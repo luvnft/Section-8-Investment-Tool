@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_589a642ffa74fd0c45ca182eea6b487f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_589a642ffa74fd0c45ca182eea6b487f" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_589a642ffa74fd0c45ca182eea6b487f = L.map(
+                "map_589a642ffa74fd0c45ca182eea6b487f",
+                {
+                    center: [33.31643358, -83.68808958],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_942d22017bd776f994bff396d471687d = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_589a642ffa74fd0c45ca182eea6b487f);
+        
+    
+            var circle_marker_cfb423fc57db50dfa8f95d9279e2fecb = L.circleMarker(
+                [33.31643358, -83.68808958],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_589a642ffa74fd0c45ca182eea6b487f);
+        
+    
+        var popup_6f8aa2958cc31d8b32d86a81b23d881e = L.popup({"maxWidth": 350});
+
+        
+            
+                var html_f3d6b1350d254bfc18d72facd90ca1eb = $(`<div id="html_f3d6b1350d254bfc18d72facd90ca1eb" style="width: 100.0%; height: 100.0%;">         <div style="padding: 5px; line-height: 1.3; font-size: 1.4em;">             <strong style="font-size: 1.9em; text-align: center; display: block;">Jasper County</strong><br><br>             <span style="font-weight: bold;">One-Bedroom:</span> $1,375.00<br>             <span style="font-weight: bold;">Two-Bedroom:</span> $1,553.00<br>             <span style="font-weight: bold;">Three-Bedroom:</span> $1,890.00<br>             <span style="font-weight: bold;">Four-Bedroom:</span> $2,308.00<br>             <span style="font-weight: bold;">Median Home Price (Q1 2023):</span> $213,397.00<br>             <span style="font-weight: bold;">S8 rent - Mortgage Payment:</span> $496.20<br>             <span style="font-weight: bold;">Violent Crime Grade:</span> A<br>             <span style="font-weight: bold;">Population (2020 census):</span> 9287<br>             <span style="font-weight: bold;">Investment Rank:</span> 17         </div>         </div>`)[0];
+                popup_6f8aa2958cc31d8b32d86a81b23d881e.setContent(html_f3d6b1350d254bfc18d72facd90ca1eb);
+            
+        
+
+        circle_marker_cfb423fc57db50dfa8f95d9279e2fecb.bindPopup(popup_6f8aa2958cc31d8b32d86a81b23d881e)
+        ;
+
+        
+    
+</script>
+</html>
