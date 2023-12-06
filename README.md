@@ -25,3 +25,9 @@ The application utilizes `s8_investment.csv` for its data analysis. This dataset
 
 ## Contact Information
 almadamiahmed@gmail.com
+
+![Screenshot 2023-12-06 140316](https://github.com/Almadam1/Section-8-Investment-Tool/assets/39468822/e2f1a6f4-4037-44f8-91b8-e0ccc44e34e3)
+![Screenshot 2023-12-06 140353](https://github.com/Almadam1/Section-8-Investment-Tool/assets/39468822/5cd3cfb6-e6c1-46df-ae61-12c432a34ce4)
+![Screenshot 2023-12-06 140503](https://github.com/Almadam1/Section-8-Investment-Tool/assets/39468822/39287f6e-de5a-48b3-b877-a5c390731398)
+![Screenshot 2023-12-06 140641](https://github.com/Almadam1/Section-8-Investment-Tool/assets/39468822/fc9ab383-1906-4f45-ae60-e883cb7845f9)
+![Screenshot 2023-12-06 140659](https://github.com/Almadam1/Section-8-Investment-Tool/assets/39468822/1d1a3dc2-667a-4107-8ec6-63e2937cc0b4)
