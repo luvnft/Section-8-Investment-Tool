@@ -23,6 +23,18 @@ To run the application, follow these steps:
 ## Data Source
 The application utilizes `s8_investment.csv` for its data analysis. This dataset contains comprehensive investment-related data, which is visualized and manipulated within the application.
 
+## References
+https://datacommons.org/place/country/USA
+
+https://cdn.nar.realtor/sites/default/files/documents/2023-q1-county-median-prices-and-monthly-mortgage-payment-by-state-07-10-2023.pdf?_gl=1*jxys5h*_gcl_au*OTg4NDQyMDEwLjE2OTM0OTg2ODk.
+
+https://www.huduser.gov/portal/datasets/fmr.html#data_2023
+
+https://www.census.gov/data/datasets.html
+
+https://crimegrade.org/safest-places-in-{zipcode}/
+
+
 ## Contact Information
 almadamiahmed@gmail.com
 
